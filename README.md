@@ -6,6 +6,8 @@ Main script taken from [this thread](https://github.com/odensc/ttv-ublock/issues
 
 A disadvantage of this technique discussed was that theater mode does not work. However if you put the stream into theater mode before swapping the players then the embedded player is also put into theater mode, though you cannot exit out of it.
 
+To install as an extension just download and unzip the ZIP file in releases and load unpacked in the Chrome extensions page.
+
 Known bugs:
 
 - Two players play at the same time causing overlapping audio (fixed with a refresh)
