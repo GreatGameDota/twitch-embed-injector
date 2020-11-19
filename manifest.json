@@ -1,15 +1,15 @@
 {
 	"name": "Twitch Embed Iframe Injector",
-	"version": "1.0",
+	"version": "1.0.1",
 	"description": "Replaces Twitch video player with an embedded Twitch player iframe",
 	"manifest_version": 2,
 	"background": {
 		"scripts": [ "background.js" ]
 	},
-	"permissions": [ "https://*.twitch.tv/*", "tabs", "webNavigation" ],
+	"permissions": [ "https://www.twitch.tv/*", "tabs", "webNavigation" ],
 	"content_scripts": [
 		{
-			"matches": [ "https://*.twitch.tv/*" ],
+			"matches": [ "https://www.twitch.tv/*" ],
 			"js": [ "load.js" ]
 		}
 	]

@@ -20,4 +20,6 @@ Known bugs:
 
 - Havn't tested this on Firefox or on an Incognito Chrome browser
 
+- Version 1.0.1 fixed a bug where the script would inject into the Twitch clip player
+
 This works as of 11/19/2020 on Windows 10 with Chrome browser bypassing both preroll and midroll ads.
