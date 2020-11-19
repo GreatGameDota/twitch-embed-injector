@@ -4,7 +4,7 @@ Simple Chrome extension that injects a new player whenever you load a twitch str
 
 Main script taken from [this thread](https://github.com/odensc/ttv-ublock/issues/11#issuecomment-730005840) talking about solutions to Twitch ads. This extension was simply made so that you don't have to manually input the command everytime you load a stream.
 
-EDIT: You can toggle in and out of Theater mode with Alt+T (below paragraph irrelevant)
+EDIT: You can toggle in and out of Theater mode with Alt+T (below paragraph irrelevant)  
 A disadvantage of this technique discussed was that theater mode does not work. However if you put the stream into theater mode before swapping the players then the embedded player is also put into theater mode, though you cannot exit out of it.
 
 To install as an extension just download and unzip the ZIP file in releases and load unpacked in the Chrome extensions page.
