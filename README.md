@@ -16,7 +16,7 @@ Known bugs:
 
 - Embed starts muted and sometimes gives the prompt of broadcaster is set for mature audiences (no way to fix just an annoyance)
 
-- Theater mode
+- Theater mode and Fullscreen
 
 - Havn't tested this on Firefox or on an Incognito Chrome browser
 
