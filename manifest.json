@@ -1,0 +1,16 @@
+{
+	"name": "Twitch Embed Iframe Adder",
+	"version": "1.0",
+	"description": "Replaces Twitch video player with an embeded twitch player iframe",
+	"manifest_version": 2,
+	"background": {
+		"scripts": [ "background.js" ]
+	},
+	"permissions": [ "https://*.twitch.tv/*", "tabs", "webNavigation" ],
+	"content_scripts": [
+		{
+			"matches": [ "https://*.twitch.tv/*" ],
+			"js": [ "load.js" ]
+		}
+	]
+}
